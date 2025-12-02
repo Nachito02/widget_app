@@ -39,16 +39,19 @@ const appMenuItems = <MenuItem>[
       subTitle: 'Statefil widget',
       link: '/animated',
       icon: Icons.check_box_outline_blank_rounded),
-
-       MenuItem(
+  MenuItem(
       title: 'Ui Controls + tiles',
       subTitle: 'Una serie de controles',
       link: '/ui-controls',
       icon: Icons.car_rental),
-
-         MenuItem(
+  MenuItem(
       title: 'Introduccion a la aplicacion',
       subTitle: 'Pequeño tutorial introductorio',
       link: '/tutorial',
       icon: Icons.accessibility_rounded),
+  MenuItem(
+      title: 'InfiniteScroll y Pull',
+      subTitle: 'Listas infinitas y pull to refresh',
+      link: '/infinite',
+      icon: Icons.list_alt_rounded),
 ];
